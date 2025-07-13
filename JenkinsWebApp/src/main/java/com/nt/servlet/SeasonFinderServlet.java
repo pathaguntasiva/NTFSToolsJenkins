@@ -33,7 +33,7 @@ public class SeasonFinderServlet extends HttpServlet
 			seasonName="Winter Season";
 		}
 		
-		pw.println("<h1 style='color:yellow;text-align:center;'>"+seasonName+"</h1>");
+		pw.println("<h1 style='color:blue;text-align:center;'>"+seasonName+"</h1>");
 		pw.println("<a href='index.jsp'>home<img src='images/home.png' width='50' height='50'></a>");
 		pw.close();
 	}
